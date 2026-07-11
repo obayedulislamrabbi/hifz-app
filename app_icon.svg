@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#0d1117"/>
+
+  <!-- Gradient overlay -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1a3a20"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C547"/>
+      <stop offset="100%" stop-color="#f0a500"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+
+  <!-- Green glow -->
+  <circle cx="256" cy="200" r="180" fill="rgba(76,175,80,0.06)"/>
+
+  <!-- Book shape -->
+  <rect x="130" y="140" width="110" height="160" rx="8" fill="url(#gold)" opacity="0.9"/>
+  <rect x="272" y="140" width="110" height="160" rx="8" fill="url(#gold)" opacity="0.8"/>
+  <!-- Book spine -->
+  <rect x="240" y="135" width="32" height="170" rx="4" fill="#c8a500"/>
+  <!-- Pages effect -->
+  <rect x="138" y="148" width="94" height="4" rx="2" fill="rgba(0,0,0,0.15)"/>
+  <rect x="138" y="158" width="94" height="4" rx="2" fill="rgba(0,0,0,0.1)"/>
+  <rect x="138" y="168" width="94" height="4" rx="2" fill="rgba(0,0,0,0.1)"/>
+  <rect x="138" y="178" width="70" height="4" rx="2" fill="rgba(0,0,0,0.1)"/>
+  <rect x="280" y="148" width="94" height="4" rx="2" fill="rgba(0,0,0,0.15)"/>
+  <rect x="280" y="158" width="94" height="4" rx="2" fill="rgba(0,0,0,0.1)"/>
+  <rect x="280" y="168" width="94" height="4" rx="2" fill="rgba(0,0,0,0.1)"/>
+  <rect x="280" y="178" width="70" height="4" rx="2" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Arabic text: الله -->
+  <text x="256" y="240" font-family="serif" font-size="48" fill="#0d1117" text-anchor="middle" font-weight="bold">الله</text>
+
+  <!-- App name in Bengali -->
+  <text x="256" y="365" font-family="sans-serif" font-size="38" fill="#E8C547" text-anchor="middle" font-weight="bold">হিফজুল</text>
+  <text x="256" y="415" font-family="sans-serif" font-size="38" fill="#E8C547" text-anchor="middle" font-weight="bold">কুরআন</text>
+
+  <!-- Stars decoration -->
+  <circle cx="120" cy="120" r="4" fill="#E8C547" opacity="0.6"/>
+  <circle cx="392" cy="100" r="3" fill="#E8C547" opacity="0.5"/>
+  <circle cx="100" cy="380" r="3" fill="#E8C547" opacity="0.4"/>
+  <circle cx="400" cy="400" r="4" fill="#E8C547" opacity="0.5"/>
+  <circle cx="440" cy="180" r="2" fill="#4CAF50" opacity="0.6"/>
+  <circle cx="80" cy="250" r="2" fill="#4CAF50" opacity="0.5"/>
+</svg>
